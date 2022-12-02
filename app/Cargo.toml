@@ -1,0 +1,9 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+# General user application that uses the rust-bitcoin library.
+
+[dependencies]
+bitcoin = { path = "../rust-bitcoin/bitcoin" }

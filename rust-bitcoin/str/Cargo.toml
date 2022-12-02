@@ -1,0 +1,13 @@
+[package]
+name = "bitcoin-str"
+version = "0.1.0"
+edition = "2021"
+
+# TODO: Add std/alloc feature.
+# TODO: Consider making each dependency crate optional and feature gated.
+
+[dependencies]
+hashes = { path = "../hashes" }
+hex = { path = "./hex" }
+base58 = { path = "./base58" }
+bech32 = { version = "0.9.1", default-features = false }

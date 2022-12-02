@@ -1,0 +1,10 @@
+[package]
+name = "bitcoin"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+
+[dependencies]
+hashes = { path = "../hashes" }
+bitcoin-str = { path = "../str" }

@@ -1,0 +1,3 @@
+[workspace]
+members = ["bitcoin", "str", "hashes"]
+exclude = ["bitcoin-internals"]
